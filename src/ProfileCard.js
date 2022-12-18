@@ -1,10 +1,11 @@
 import React from 'react';
 
-const ProfileCard = (props) => {
+const ProfileCard = ({ title, handle }) => {
+
   return (
     <div>
-      <h2>{props.title}</h2>
-      <p>{props.handle}</p>
+      <h2>{title}</h2>
+      <p>{handle}</p>
     </div>
   )
 }
