@@ -1,8 +1,11 @@
 import React from 'react';
 
-const ProfileCard = () => {
+const ProfileCard = (props) => {
   return (
-    <div>ProfileCard</div>
+    <div>
+      <h2>{props.title}</h2>
+      <p>{props.handle}</p>
+    </div>
   )
 }
 
